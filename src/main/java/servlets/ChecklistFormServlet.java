@@ -1,3 +1,4 @@
+package servlets;
 
 import database.EntityDao;
 import model.Checklist;

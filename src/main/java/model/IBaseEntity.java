@@ -1,4 +1,6 @@
- public interface IBaseEntity {
+package model;
+
+public interface IBaseEntity {
 
         Long getId();
     }

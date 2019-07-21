@@ -1,3 +1,11 @@
+package model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.*;
+
 public class ChecklistItem {
 
 import lombok.AllArgsConstructor;
@@ -10,7 +18,7 @@ import javax.persistence.*;
     @Entity
     @AllArgsConstructor
     @NoArgsConstructor
-    public class ChecklistItem implements IBaseEntity{
+    public class ChecklistItem implements IBaseEntity {
 
         @Id
         @GeneratedValue(strategy = GenerationType.AUTO)
